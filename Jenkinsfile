@@ -11,8 +11,7 @@ pipeline {
 
         stage('test') {
           steps {
-            powershell 'echo hihi'
-            powershell 'echo hihi2'
+            sh 'echo hi'
           }
         }
 
