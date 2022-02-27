@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('test') {
+      steps {
+        sh '''echo hi
+sh \'echo hi\''''
+      }
+    }
+
   }
 }
