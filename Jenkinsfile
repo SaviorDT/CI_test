@@ -11,7 +11,8 @@ pipeline {
 
         stage('test') {
           steps {
-            bat 'echo hi;'
+            bat 'echo hi'
+            powershell 'echo hihi'
           }
         }
 
