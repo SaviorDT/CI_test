@@ -50,6 +50,8 @@ public class Core {
 		label.setEditable(false);
 		frame.add(label);
 		frame.setVisible(true);
+		frame.setExtendedState(JFrame.MAXIMIZED_BOTH );
+		
 		
 		playScript();
 	}
