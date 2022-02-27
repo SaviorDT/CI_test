@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('get') {
       steps {
-        git 'https://github.com/SaviorDT/CI_test.git'
+        git(url: 'https://github.com/SaviorDT/CI_test.git', branch: 'main')
       }
     }
 
